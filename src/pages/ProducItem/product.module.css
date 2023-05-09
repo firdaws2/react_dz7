@@ -1,0 +1,46 @@
+.container img{
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    transition: .9s;
+}
+
+.container {
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.comment {
+    background-color: cornflowerblue;
+}
+
+
+.comment h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    color: midnightblue;
+    transition: .6s;
+}
+.comment h2:hover {
+    transform: scale(1.1) translateX(15px);
+    cursor: pointer;
+}
+
+.comment h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    color: slateblue;
+    transition: .6s;
+}
+
+.comment h3:hover{
+    transform: scale(1.2) translateX(25px);
+    cursor: pointer;
+}
+.comment .button {
+    margin: 15px;
+}
+
+
